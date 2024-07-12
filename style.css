@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 165px;
+}
+body{
+    background-color: #EDF3F8;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 165px;
+}
+.logo{
+    max-width: 135px;
+}
+.logo img{
+    width: 100%;
+}
+.nav{
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+}
+.nav li a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    color: #36536B;
+}
+.btn{
+    padding: 15px 25px;
+    font-weight: 700;
+    font-size: 15px;
+    color: #ffff !important;
+    box-shadow: 10px 10px 25px -10px #36536B40;
+    border-radius: 50px;
+    background-color: #BA4270;
+}
+.mars{
+    display: none;
+}
+.main__left h1{
+    color: #36536B;
+    width: 546px;
+    font-size: 72px;
+}
+.main__right img{
+    width: 263px;
+    width: 500px;
+    margin-top: 18px;
+    margin-bottom: 91px;
+}
+.card{
+    background-color: #1B262F;
+    padding: 60px 0px;
+}
+.cars__left h2{
+    color: #FBFCFE;
+    font-size: 48px;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    margin-bottom: 24px ;
+}
+.cars__left p{
+    font-family: "Public Sans", sans-serif;
+    font-weight: 400px;
+    font-size: 15px;
+    color: #989898;
+    width: 455px;
+    line-height: 28px;
+}
+.cars__left button{
+    background-color: transparent;
+    padding: 16px 32px 14px 32px ;
+    border-radius: 50px;
+    margin-top: 32px;
+    color: white;
+    border: 1px solid white;
+}
+.cars__right{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap:39px 40px;
+
+}
+    .d{
+        padding-right: 25px ;
+    } 
+
+    .v{ 
+        padding-right: 25px;
+    }
+    .am{
+        display: flex;
+        padding: 100px 0px 120px 120px ;
+    }
+    .card1__right{
+        margin-left: 165px;
+    }
+.card1__left{
+    width: 445px;
+}
+.card1__right h2{
+    color: #36536B;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;   
+    font-size: 48px;    
+    padding-bottom: 24px;
+    padding-top: 100px;
+}
+.card1__right p{
+    font-family: "Public Sans", sans-serif;
+    font-weight: 400;
+    width: 445px;
+    color: #6C8294  ;
+    line-height: 28px;
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img{
+    background-color: #36536B;
+    width: 106px;
+    height: 106px;
+    border-radius:50px;
+    padding: 28px 33px 28px 33px;
+    margin-bottom: 32px;
+}
+.img img{
+    width: 39px;
+    
+}
+.div1 h2{
+    color: #36536B;
+    font-family: "Public Sans", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.div1 p{
+    color: #6C8294;
+    font-family: "Public Sans", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    width: 350px;
+    text-align: center;
+    padding-bottom: 72px;   
+
+}
+footer{
+    background-color: #1B262F;
+}
+.n{
+    display: flex;
+    align-items: center;
+}
+.n img{
+    margin-right: 64px;
+}
+.n ul li a{
+    color: #FBFCFE;
+}
+.photos{
+    display: flex;
+    gap: 24px;
+}
+
+@media screen and (max-width:768px){
+    header{
+        padding: 40px 40px 0px 40px;
+    }
+    .rer{
+        flex-direction: column-reverse;
+        padding-top: 43px;
+    }
+    .main__left h1{
+        width: 550px;
+        font-size: 48px;
+        font-family: "DM Serif Display", serif;
+        font-weight: 400;   
+    }
+    .main__right img{
+        width: 259px;
+        padding-bottom: 48px;
+        margin-bottom: 0;
+    }
+    .card .container{
+        width: 100%;
+        flex-direction: column-reverse;
+        padding: 88px 116px;
+    }
+    .cars__rght{
+        margin-left: 1px !important;
+    }
+    .cars__left h2{
+        text-align: center;
+        padding-top: 64px;
+    }
+    .cars__left p{
+        text-align: center;
+    }
+    .cars__left button{
+        width: 128px;
+        margin-left: 164px;
+    }
+    .am{
+        flex-direction: column;
+        padding: 67px 98px 95px 97px;
+    }
+    .am img{
+        width: 491px;
+        margin-left: 60px;
+    }
+    .am p{
+        width: 593px;
+        text-align: center;
+    }
+    .card1__right{
+        margin-left: 0px;
+    }
+    .card1__right h2{
+        padding: 0;
+        text-align: center;
+        margin-bottom: 24px;
+    }
+    .rerers{
+        padding: 0px 44px 95px 40px ;
+    }
+    .img {
+        padding: 24px 27px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .div1 h2{
+        font-family: "Public Sans", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+    }
+    .div1 p{
+        width: 223px;
+        font-family: "Public Sans", sans-serif;
+        font-weight: 400;
+        line-height: 25px;
+    }
+    .lal{
+        padding: 31px 39px  ;
+
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width:375px) {
+    header{
+        padding: 24px 40px;
+    }
+    .mars{
+        display: block;
+    }
+    .nav{
+        display: none;
+    }
+    .main__left h1{
+        width: 327px;
+        font-size: 32px;
+        font-family: "DM Serif Display", serif;
+        font-weight: 400;   
+        text-align: center;
+    }
+    .main__right img{
+        width: 200px;
+        padding-bottom: 24px;
+        margin-bottom: 0;
+    }
+    .ther{
+        padding: 105px 20px 35px 20px ;
+        
+    }
+    .a{
+        width: 107px;
+    }
+    .b{
+        width: 120px;
+    }
+    .c{
+        width: 115px;
+    }
+    .d{
+        width: 108px;
+    }
+    .v{
+        width: 79px;
+    }
+    .z{
+        width: 113px;
+    }
+    .cars__left h2{
+        font-size: 32px;
+        font-family: "DM Serif Display", serif;
+        font-weight: 400; 
+    }
+    .cars__left p{
+        font-family: "Public Sans", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        width: 347px;
+        text-align: center;
+        line-height: 28px;
+    }
+    .cars__left button{
+        margin-left: 99px;
+    }
+    .am{
+        padding: 87px 27px 62px 20px;
+    }
+
+
+
+    .am{
+        flex-direction: column;
+        padding: 87px 27px 62px 20px;
+    }
+    .am img{
+        width: 328px;
+        margin-left: 0px;
+    }
+    .am p{
+        width: 328px;
+        text-align: center;
+    }
+    .card1__right{
+        margin-left: 0px;
+    }
+    .card1__right h2{
+        padding: 0;
+        text-align: center;
+        font-family: "DM Serif Display", serif;
+        font-weight: 400;
+        font-size: 36px;
+        margin-bottom: 24px ;
+    }
+
+
+    .rerers{
+        padding: 0px 20px 85px 20px ;
+        flex-wrap: wrap;
+    }
+    .img {
+        padding: 28px 33px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .div1 p{
+        width: 328px;
+    }
+    .lal{
+        padding: 40px 120px 55px 120px  ;
+    }
+    .n img{
+        margin-bottom: 40px;
+        margin-right: 0;
+    }
+}
